@@ -12,8 +12,8 @@ function setScore(score) {
 }
 
 function setImage() {
-  if (getScore() >= 50) {
-    $circle.setAttribute('src', './assets/lizzard.png')
+  if (getScore() >= 1000) {
+    $circle.setAttribute('src', './assets/rat1000.jpg')
   }
 }
 
